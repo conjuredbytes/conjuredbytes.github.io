@@ -10,7 +10,6 @@ Hi, I'm [Ethan Dewey](https://github.com/edewey) and I'm a nerd with a website. 
 
 [ethan@dewey.io](mailto:ethan@dewey.io)
 
+- - - 
 
-
-
-"Potion" icon by tulpahn from the [Noun Project](https://thenounproject.com/)
+*"Potion" icon by tulpahn from the [Noun Project](https://thenounproject.com/)*
