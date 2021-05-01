@@ -23,8 +23,6 @@ ImageMagick is an incredibly robust image manipulation tool used by web apps to 
 
 It also runs on just about anything so I was able to easily install it on Windows for use with my PowerShell script.
 
-Check out the script here:
-
 ```powershell
 [CmdletBinding()]
 param (
