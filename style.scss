@@ -15,15 +15,15 @@
 
 html {
   font-size: 100%;
+  position: relative;
+  min-height: 100%;
 }
 
 body {
   background: $white;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
-  min-height: 100vh;
-  display: grid;
-  grid-template-rows: auto 1fr auto;
+  margin: 0 0 100px;
 }
 
 .container {
@@ -153,6 +153,10 @@ img {
 // .masthead
 //
 
+.wrapper-masthead {
+  margin-bottom: 50px;
+}
+
 .masthead {
   padding: 20px 0;
   border-bottom: 1px solid $lightGray;
@@ -271,6 +275,11 @@ nav {
 }
 
 .wrapper-footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
