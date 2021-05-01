@@ -51,7 +51,7 @@ Make sure you download and install ImageMagick 7+ before you try running the scr
 For example:
 `./Convert-HEIC2JPG.ps1 c:\users\ethan\downloads\photos\`
 
-![Example output]({{site.baseurl}}/images/blog_images/Convert-HEIC2JPG_example_usage.png)
+![Example output]({{site.baseurl}}/images/blog_images/Convert-HEIC2JPG_usage_example.png)
 
 
 
