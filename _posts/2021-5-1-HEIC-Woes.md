@@ -25,7 +25,7 @@ It also runs on just about anything so I was able to easily install it on Window
 
 Check out the script here:
 
-```
+```powershell
 [CmdletBinding()]
 param (
     [parameter(mandatory = $true, position = 1)]
