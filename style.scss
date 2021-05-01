@@ -287,7 +287,7 @@ nav {
 }
 
 footer {
-  padding: 20px 0;
+  padding-top: 20px; /* pretty sure this only looks right because of the <p> copyright in the footer */
   text-align: center;
 }
 
