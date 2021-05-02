@@ -15,9 +15,11 @@ Windows requires you to [download additional codecs](https://www.microsoft.com/e
 Quite frankly, for me the advantages aren't currently worth the incompatibilities I've run into with HEIC. So I switched back to Camera.app saving images in JPG again: 
 `Settings -> Camera -> Formats -> Most Compatible` 
 
-...But not before I unknowingly took a few hundred photos in HEIC. Conversion it is.
+...But not before I unknowingly took a few hundred photos in HEIC. 
 
-Google will return a slew of web-based image conversion sites that purport to support converting HEIC to JPG and I'm sure they work fine. But I don't want to trust my photo library to some random website. So I opted to write a PowerShell script to convert an entire directory of them locally. Most likely using the same tool those websites are using to convert them remotely anyway, [ImageMagick](https://imagemagick.org/index.php). 
+Conversion it is.
+
+Google will return a slew of web-based image conversion sites that purport to support converting HEIC to JPG and I'm sure they work fine. But I don't want to trust my photo library to some random website. So I opted to write [a PowerShell script](https://github.com/edewey/Convert-HEIC2JPG) to convert an entire directory of them locally. Most likely using the same tool those websites are using to convert them remotely anyway, [ImageMagick](https://imagemagick.org/index.php). 
 
 ImageMagick is an incredibly robust image manipulation tool used by web apps to convert, edit, and resize images on the fly. 
 
