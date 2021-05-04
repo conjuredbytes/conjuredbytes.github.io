@@ -8,7 +8,7 @@ Hi, I'm [Ethan Dewey](https://github.com/edewey) and I'm a nerd with a website. 
 
 ### Contact me
 
-[ethan@dewey.io](mailto:ethan@dewey.io)
+[contact@conjuredbytes.com](mailto:contact@conjuredbytes.com)
 
 - - - 
 
