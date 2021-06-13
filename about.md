@@ -9,7 +9,3 @@ Hi, I'm [Ethan Dewey](https://github.com/edewey) and I'm a nerd with a website. 
 ### Contact me
 
 [contact@conjuredbytes.com](mailto:contact@conjuredbytes.com)
-
-- - - 
-
-*"Potion" icon by tulpahn from the [Noun Project](https://thenounproject.com/)*
