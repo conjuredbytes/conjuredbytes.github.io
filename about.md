@@ -4,8 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Hi, I'm [Ethan Dewey](https://github.com/edewey) and I'm a nerd with a website. I'm primarily interested in web development, infosec, and network administration. 
+Hi, I'm [Ethan Dewey](https://github.com/edewey). I'm a web developer, or an IT guy, or something.  ¯\_(ツ)_/¯
 
 ### Contact me
 
-[ethan@ethandewey.com](mailto:ethan@ethandewey.com)
+[ethan@flyingbison.net](mailto:ethan@flyingbison.net)
