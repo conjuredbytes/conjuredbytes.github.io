@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Hi, I'm [Ethan Dewey](https://github.com/edewey). I'm a web developer, or an IT guy, or something.  ¯\\_(ツ)_/¯
+Hi, I'm Ethan. I'm a web developer, or an IT guy, or something.  ¯\\_(ツ)_/¯
 
 ### Contact me
 
