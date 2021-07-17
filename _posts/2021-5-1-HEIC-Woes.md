@@ -42,7 +42,6 @@ foreach($file in $files) {
     Write-Host "Converted $file to HEIC2JPG\$newJPGFile"
 }
 ```
-<iframe src="https://ghbtns.com/github-btn.html?user=edewey&repo=Convert-HEIC2JPG&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
 
 The script takes one argument, provide a directory path containing .heic files you'd like to convert to .jpg. A new directory called HEIC2JPG will be created within the supplied directory where your converted JPGs will be placed.
 
