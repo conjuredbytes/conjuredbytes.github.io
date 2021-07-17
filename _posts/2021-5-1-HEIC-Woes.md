@@ -43,6 +43,7 @@ foreach($file in $files) {
 }
 ```
 
+
 The script takes one argument, provide a directory path containing .heic files you'd like to convert to .jpg. A new directory called HEIC2JPG will be created within the supplied directory where your converted JPGs will be placed.
 
 Make sure you download and install ImageMagick 7+ before you try running the script.
