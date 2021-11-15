@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-Hi, I'm Ethan. I'm a web developer, or an IT guy, or something.  ¯\\_(ツ)_/¯
+Hey, I'm Ethan Dewey. I'm currently an information systems student with a focus on cybersecurity. I also like to dabble in video games and 3D art. I have no idea what I'm doing.  ¯\\_(ツ)_/¯
