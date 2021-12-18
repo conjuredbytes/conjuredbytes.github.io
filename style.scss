@@ -277,17 +277,18 @@ nav {
   position: absolute;
   left: 0;
   bottom: 0;
-  height: 100px;
+  // height: 100px;
   width: 100%;
   margin-top: 50px;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
+  // border-top: 1px solid #ddd;
+  // border-bottom: 1px solid #ddd;
+  // background-color: $lightGray;
 }
 
 footer {
   padding-top: 20px; /* pretty sure this only looks right because of the <p> copyright in the footer */
   text-align: center;
+  border-top: 1px solid #eee;		
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
