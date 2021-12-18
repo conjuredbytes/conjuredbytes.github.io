@@ -21,7 +21,7 @@ html {
 
 body {
   background: $white;
-  font: 18px/1.4 $sansSerif;
+  font: 18px/1.4 $serif;
   color: $darkGray;
   margin: 0 0 100px;
 }
@@ -34,7 +34,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $serif;
+  font-family: $sansSerif;
   color: $darkerGray;
 
   line-height: 1.7;
@@ -196,7 +196,7 @@ img {
   margin: 0;
   color: $darkGray;
   cursor: pointer;
-  font-family: $serif;
+  font-family: $sansSerif;
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
