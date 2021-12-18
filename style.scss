@@ -196,7 +196,7 @@ img {
   margin: 0;
   color: $darkGray;
   cursor: pointer;
-  font-family: $sansSerif;
+  font-family: $serif;
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
@@ -206,7 +206,6 @@ img {
   margin: -5px 0 0 0;
   color: $gray;
   font-size: 16px;
-  font-family: $sansSerif;
 
   @include mobile {
     margin: 3px 0;
@@ -216,7 +215,7 @@ img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $sansSerif;
+  font-family: $serif;
   font-size: 18px;
 
   @include mobile {
