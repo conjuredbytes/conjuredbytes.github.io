@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Extra Considerations for Domain and Registrar Security
+title: Domain and Registrar Security
 ---
 
 Registering a domain name is probably the easiest step in the pipeline
