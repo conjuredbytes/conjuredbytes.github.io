@@ -1,6 +1,6 @@
 ---
 layout: post
-title: HEIC Woes
+title: HEIC I Hardly Knew Ye
 ---
 The new-ish [High Efficiency Image File Format](https://en.wikipedia.org/wiki/High_Efficiency_Image_File_Format) has a lot of advantages over older formats but compatibility is currently not one of them. 
 
