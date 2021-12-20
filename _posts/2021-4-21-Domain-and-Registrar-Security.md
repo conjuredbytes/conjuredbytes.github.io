@@ -33,7 +33,7 @@ You’ll also want to make sure you always get important emails regarding your d
 
 ## Understand *who is* proxying your WHOIS
 
-WHOIS proxy services are usually operated by your registrar, or a subsidiary shell company set up by them, but not always. If you use a proxy service, make note of who’s running it. It might keep your information from being public, but it could open you up to, and admittedly niche, methods of exploitation. The data in WHOIS records is often used for functions related to the management of your domain. For example, the Administrator email address can be used to prove ownership and verify domain validated certificates. 
+WHOIS proxy services are usually operated by your registrar, or a subsidiary shell company set up by them, but not always. If you use a proxy service, make note of who’s running it. It might keep your information from being public, but it could open you up to (admittedly niche) methods of exploitation. The data in WHOIS records is often used for functions related to the management of your domain. For example, the Administrator email address can be used to prove ownership and verify domain validated certificates. 
 
 Consider forgoing WHOIS proxy services and follow the advice I mentioned above regarding WHOIS contact data. If you’re an individual and you don’t want your address or phone number published, use a PO box and a Google Voice number. 
 
