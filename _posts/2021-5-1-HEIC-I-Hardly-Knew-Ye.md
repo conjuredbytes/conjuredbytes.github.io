@@ -10,7 +10,7 @@ You see, the iPhone camera app defaults to saving images and videos in HEIC form
 
 This kind of pissed me off as I was trying to upload a few hundred photos I pulled off an old iPhone to iCloud. This process turned out to be kind of a headache, which, to be fair, is more a failing of Apple than HEIC, but it was caught in the crossfire anyway. Ragging on Apple aside, Windows 10 also requires you install some codecs from the Microsoft Store for HEIC photos and videos to properly integrate with the operating system. 
 
-For future reference, if you want to avoid this headache and just bypass HEIC until it’s garnered more software support you can change the tell your iPhone to just save in JPG and MOV again by going to Settings -> Camera -> Formats -> Most Compatible. But, if you’re like me, and have already taken an annoying number of photos that were saved in HEIC format, I have a PowerShell script for you. 
+For future reference, if you want to avoid this headache and just bypass HEIC until it’s garnered more software support you can tell your iPhone to just save in JPG and MOV again by going to Settings -> Camera -> Formats -> Most Compatible. But, if you’re like me, and have already taken an annoying number of photos that were saved in HEIC format, I have a PowerShell script for you. 
 
 ```powershell
 [CmdletBinding()]
@@ -35,7 +35,7 @@ You’ll need to have ImageMagick installed and in your path to do the conversio
 For example:
 `./Convert-HEIC2JPG.ps1 c:\users\ethan\downloads\photos\`
 
-Hopefully, this saves you some headache.
+Hopefully this saves you some headache.
 
 
 
