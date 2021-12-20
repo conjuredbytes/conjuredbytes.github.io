@@ -3,7 +3,7 @@ layout: post
 title: Domain and Registrar Security
 ---
 
-If you’re like me, and you get a rush of dopamine anytime you register a domain for, “a totally real and awesome webapp I’m definitely going to make someday” you might have a bunch of domains sitting around doing nothing. In reality, If you’re not like me, and you actually get things done, you might have an actually important domain name registered for you’re totally awesome web app. If this is the case, you probably want to make sure it’s secure. 
+If you’re like me, and you get a rush of dopamine anytime you register a domain for, “a totally real and awesome webapp I’m definitely going to make someday” you might have a bunch of domains sitting around doing nothing. If you’re not like me, and you actually get things done, you might have an actually important domain name registered for you’re totally awesome web app. If this is the case, you probably want to make sure it’s secure. 
 
 I did some thinking one day and realized that for all the ways you can secure your website there is often a single point of failure, your domain name. Domain hijacking seems relatively rare, but it happens. Sure, properly configured certificates can potentially alert your site’s visitors to the fact that something’s phishy, but availability is an important aspect of security and getting your domain hijacked will lead to some likely significant downtime. There’s also a whole slew of other issues someone can get up to if they have control of your domain. Someone could assume important email addresses and gain access to more systems or do any number of nefarious things that usually require domain validation. 
 
