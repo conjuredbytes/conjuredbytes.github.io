@@ -2,28 +2,15 @@
 layout: post
 title: HEIC I Hardly Knew Ye
 ---
-The new-ish [High Efficiency Image File Format](https://en.wikipedia.org/wiki/High_Efficiency_Image_File_Format) has a lot of advantages over older formats but compatibility is currently not one of them. 
+I’d be amiss if I told you I knew exactly how the HEIC image format worked. It’s higher quality with a smaller file size or something, but I digress. I’m sure it has its benefits, but for me, your average guy who just sends you a picture of his dog every now and then, I don’t really see them. I’m also not a guy who gets pedantic about what file format he stores his dog pictures in; I don’t think about it. And that’s where HEIC crossed me: it made me think about it. 
 
-Apple switched to .heic as the default image format of the iOS Camera app somewhere in 2017 and since then support has lagged. Even in Apple's own iCloud...
+You see, the iPhone camera app defaults to saving images and videos in HEIC formats nowadays, which isn’t that big of a deal until you try and do something complex, like, I don’t know, try and upload an HEIC image you took on your iPhone to iCloud on the web. 
 
 ![iCloud HEIC Error]({{site.baseurl}}/images/blog_images/icloud_heic_error.png)
 
-<div class="tenor-gif-embed" data-postid="9553858" data-share-method="host" data-width="100%" data-aspect-ratio="1.8253968253968251"><a href="https://tenor.com/view/jonahhill-frustrated-gif-9553858">Jonah Hill Frustrated GIF</a> from <a href="https://tenor.com/search/jonahhill-gifs">Jonahhill GIFs</a></div><script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+This kind of pissed me off as I was trying to upload a few hundred photos I pulled off an old iPhone to iCloud. This process turned out to be kind of a headache, which, to be fair, is more a failing of Apple than HEIC, but it was caught in the crossfire anyway. Ragging on Apple aside, Windows 10 also requires you install some codecs from the Microsoft Store for HEIC photos and videos to properly integrate with the operating system. 
 
-Windows requires you to [download additional codecs](https://www.microsoft.com/en-us/p/heif-image-extensions/9pmmsr1cgpwg?activetab=pivot:overviewtab) to view them locally.
-
-Quite frankly, for me the advantages aren't currently worth the incompatibilities I've run into with HEIC. So I switched back to Camera.app saving images in JPG again: 
-`Settings -> Camera -> Formats -> Most Compatible` 
-
-...But not before I unknowingly took a few hundred photos in HEIC. 
-
-Conversion it is.
-
-Google will return a slew of web-based image conversion sites that purport to support converting HEIC to JPG and I'm sure they work fine. But I don't want to trust my photo library to some random website. So I opted to write [a PowerShell script](https://github.com/edewey/Convert-HEIC2JPG) to convert an entire directory of them locally. Most likely using the same tool those websites are using to convert them remotely anyway, [ImageMagick](https://imagemagick.org/index.php). 
-
-ImageMagick is an incredibly robust image manipulation tool used by web apps to convert, edit, and resize images on the fly. 
-
-It also runs on just about anything so I was able to easily install it on Windows for use with my PowerShell script.
+For future reference, if you want to avoid this headache and just bypass HEIC until it’s garnered more software support you can change the tell your iPhone to just save in JPG and MOV again by going to Settings -> Camera -> Formats -> Most Compatible. But, if you’re like me, and have already taken an annoying number of photos that were saved in HEIC format, I have a PowerShell script for you. 
 
 ```powershell
 [CmdletBinding()]
@@ -43,14 +30,12 @@ foreach($file in $files) {
 }
 ```
 
-The script takes one argument, provide a directory path containing .heic files you'd like to convert to .jpg. A new directory called HEIC2JPG will be created within the supplied directory where your converted JPGs will be placed.
-
-Make sure you download and install ImageMagick 7+ before you try running the script.
+You’ll need to have ImageMagick installed and in your path to do the conversions. The script takes one argument: a directory path containing the .heic files you’d like to convert. Once run the script will find all .heic files in the provided directory, convert them to JPG with ImageMagick, and put them in an “HEIC2JPG” folder. 
 
 For example:
 `./Convert-HEIC2JPG.ps1 c:\users\ethan\downloads\photos\`
 
-![Example output]({{site.baseurl}}/images/blog_images/Convert-HEIC2JPG_usage_example.png)
+Hopefully, this saves you some headache.
 
 
 
