@@ -37,6 +37,6 @@ WHOIS proxy services are usually operated by your registrar, or a subsidiary she
 
 Consider forgoing WHOIS proxy services and follow the advice I mentioned above regarding WHOIS contact data. If you’re an individual and you don’t want your address or phone number published, use a PO box and a Google Voice number. 
 
-Alternatively, if you trust your WHOIS proxy service, just use them. I’m not aware of any significant incidents involving domain hijacking via WHOIS proxy services but it’s theoretically possible. 
+Alternatively, if you trust your WHOIS proxy service just use them. I’m not aware of any significant incidents involving domain hijacking via WHOIS proxy services but it’s theoretically possible. 
 
 There you have it, now you can register your dopamine domains and secure them too. 
