@@ -15,17 +15,12 @@
 
 html {
   font-size: 100%;
-  position: relative;
-  min-height: 100%;
 }
 
 body {
-  background: $white;
-  font: 21px/1.4 $serif;
+	background: $white;
+  font: 18px/1.4 $helvetica;
   color: $darkGray;
-  margin: 0 0 100px;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 .container {
@@ -36,11 +31,11 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $serif;
-  color: $darkGray;
+  font-family: $helveticaNeue;
+  color: $darkerGray;
+  font-weight: bold;
 
   line-height: 1.7;
-  letter-spacing: -0.5px;
   margin: 1em 0 15px;
   padding: 0;
 
@@ -50,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 26px;
+  font-size: 30px;
   a {
     color: inherit;
   }
@@ -199,7 +194,7 @@ img {
   margin: 0;
   color: $darkGray;
   cursor: pointer;
-  font-family: $serif;
+  font-family: $helveticaNeue;
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
@@ -218,7 +213,7 @@ img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $serif;
+  font-family: $helveticaNeue;
   font-size: 18px;
 
   @include mobile {
@@ -277,25 +272,15 @@ nav {
 }
 
 .wrapper-footer {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  // height: 100px;
-  width: 100%;
   margin-top: 50px;
-  // border-top: 1px solid #ddd;
-  // border-bottom: 1px solid #ddd;
-  // background-color: $lightGray;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  background-color: $lightGray;
 }
 
 footer {
-  // padding-top: 20px; /* pretty sure this only looks right because of the <p> copyright in the footer */
+  padding: 20px 0;
   text-align: center;
-  border-top: 1px solid #eee;		
-}
-
-footer p {
-  font-size: 14px;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
