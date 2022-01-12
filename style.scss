@@ -258,13 +258,17 @@ nav {
 
 .wrapper-footer {
   margin-top: 50px;
-  background-color: $lightGray;
+  height: 50px;
 }
 
 footer {
   padding: 20px 0;
   text-align: center;
   border-top: 1px solid $tansparentBlack;
+}
+
+.content-wrapper {
+  min-height: calc(100vh - 70px);
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
