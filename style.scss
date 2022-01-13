@@ -253,7 +253,12 @@ nav {
   .read-more {
     text-transform: uppercase;
     font-size: 15px;
+    border-bottom: 1px dotted $red;
   }
+}
+
+article .entry a, article .post a, article .page a {
+  text-decoration: underline dotted $red;
 }
 
 .wrapper-footer {
