@@ -38,7 +38,6 @@ h1, h2, h3, h4, h5, h6 {
 
   line-height: 1.7;
   letter-spacing: -0.5px;
-  text-decoration: none;
   margin: 1em 0 15px;
   padding: 0;
 
@@ -210,7 +209,6 @@ nav {
   }
 
   a {
-    text-decoration: none;
     margin-left: 20px;
     color: $darkGray;
     text-align: right;
@@ -253,9 +251,6 @@ nav {
   }
 
   .read-more {
-    text-decoration: none;
-    border-bottom: 1px dotted $red;
-    padding-bottom: 5px;
     text-transform: uppercase;
     font-size: 15px;
   }
