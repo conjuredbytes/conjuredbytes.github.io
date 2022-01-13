@@ -72,7 +72,7 @@ p {
 
 a {
   color: $red;
-  text-decoration: none;
+  text-decoration: underline dotted;
 	cursor: pointer;
   &:hover, &:active {
     color: $red;
