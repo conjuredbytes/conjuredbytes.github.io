@@ -259,7 +259,8 @@ nav {
 
 article .entry a, article .post a, article .page a {
   text-decoration: underline dotted $red;
-  -webkit-text-decoration: underline dotted $red 2px;
+  -webkit-text-decoration: underline dotted $red;
+  -webkit-text-decoration-thickness: 2px;
 }
 
 .wrapper-footer {
