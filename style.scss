@@ -158,7 +158,7 @@ img {
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $tansparentBlack;
+  border-bottom: 1px solid $offGray;
 
   @include mobile {
     text-align: center;
@@ -228,7 +228,7 @@ nav {
 
 .posts > .post {
   padding-bottom: 2em;
-  border-bottom: 1px solid $tansparentBlack;
+  border-bottom: 1px solid $offGray;
 }
 
 .posts > .post:last-child {
@@ -270,7 +270,7 @@ article .entry a, article .post a, article .page a {
 footer {
   padding: 20px 0;
   text-align: center;
-  border-top: 1px solid $tansparentBlack;
+  border-top: 1px solid $offGray;
 }
 
 .content-wrapper {
