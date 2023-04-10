@@ -4,13 +4,7 @@ title: Contact
 permalink: /contact/
 ---
 
-Email: [hello@edewey.net](mailto:hello@edewey.net)
-
-GitHub: [github.com/edewey](https://github.com/edewey)
-
-Mastodon: [infosec.exchange/@edewey](https://infosec.exchange/@edewey)
-
-Dev.to: [dev.to/@edewey](https://dev.to/@edewey)
+Shoot me an email at [hello@ethandewey.com](mailto:hello@ethandewey.com) or find a list of my other accounts [here](https://ethandewey.com/linklist/).
 
 
-You can also subscribe to this blog via RSS at [blog.edewey.net/feed.xml](https://blog.edewey.net/feed.xml).
+You can also subscribe to this blog via RSS at [ethandewey.com/feed.xml](https://ethandewey.com/feed.xml).
